@@ -1,0 +1,87 @@
+/* Reset */
+#mapCanvas {
+    height: 100%;
+    line-height: normal;
+}
+
+#mapCanvas a img {
+    border: none;
+    outline: none;
+}
+
+html {
+    height: 100%}
+
+body {height: 100%;}
+
+/* Currently all labels are styled the same but they can be broken out if needed */
+.doLabel, .seeLabel, .tasteLabel, .buyLabel, .hearLabel, .drinkLabel {
+    color: white;
+    background: #e37222;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    padding: 4px;
+    white-space: nowrap;
+}
+
+/* Google's Info Bubble Styles */
+.iw {
+    text-align: left;
+    overflow: hidden;
+    width: 260px;
+}
+.iw, .iw table {
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+}
+.iw .title {
+    font-size: 123%;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.iw .rev {
+    direction: ltr;
+}
+.iw .rev {
+    line-height: 12px;
+    padding: 0;
+}
+.iw .basicinfo {
+    max-width: 260px;
+    padding-top: 0.5em;
+}
+.iw a:link, .iw a:visited {
+    color: #4272DB;
+    text-decoration: none;
+}
+
+.iw .title a:link, .iw .title a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Static map */
+#previewMapWrap {float: left; width: 33.44%;}
+#previewMap {border-left:1px solid #d2d2d2; border-top:1px solid #d2d2d2;1}
+#contentTopBox{float: right; background: #00a599; height: 237px; width: 62.4%; padding: 20px; }
+#contentTopBox h2, #contentTopBox p { color: white; padding: 0; margin: 0; line-height: normal;}
+#contentTopBox h2 { font-weight: bold; font-size: 30px; padding-bottom: 20px; letter-spacing: .05em;}
+#contentTopBox p { padding-bottom: 17px; line-height: 1.3em; font-size: 12px;}
+
+/* Cursor change on map preview hover */
+#previewMap {
+        cursor: url('../img/mz-zoom.cur'), pointer;
+  }
+
+/* White button styles */
+#contentTopBox a.exploreBtn { padding: 3px 10px; margin-top: 10px; display: block; float: left; clear:both; font-size: 14px; background: white; color: #00a599; font-weight: bold; text-decoration: none;}
+#contentTopBox a.exploreBtn:hover {}
+#cboxClose {background: none;}
+#cboxExplore a.exploreBtn, #cboxClose span{ padding: 4px 10px; display: inline-block; margin: 0; line-height: normal; letter-spacing: 0em; font-size: 14px; font-family: Arial; background: white; color: #00a599; font-weight: bold; text-decoration: none;}
+#cboxExplore a.exploreBtn:hover, #cboxClose span:hover {}
+#cboxClose span.closeX {margin-left: 2px; }
+#colorbox button {padding: 0; margin: 0; border: none; cursor: pointer; background: none;}

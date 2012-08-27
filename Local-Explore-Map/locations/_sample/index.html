@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">   
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <title>Explore the Area</title>
+        <link rel="stylesheet" type="text/css" href="../../assets/css/map-styles.css" />
+        <link rel="stylesheet" type="text/css" href="../../assets/css/colorbox.css" />
+        <link rel="stylesheet" href="../../assets/css/example-hi-global.css" />
+        <script src="../../assets/js/jquery-1.5.2.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        // global.js reassigns jQuery namespace to jq
+            var jq = jQuery.noConflict();
+            //$ no longer references the jQuery lib
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="MastheadShell">
+                <div id="contentWrapper">
+                    <div class="dayContentWrapper">
+                        <!-- PLUGINS/CUSTOM SCRIPTS WILL GET INSTERED JUST AFTER THE dayContent Wrapper OPENING DIV -->
+                        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+                        <script type="text/javascript" src="../../assets/js/static-map.js"></script>
+                        <script type="text/javascript" src="../../assets/src/colorbox.js"></script>
+                        <script type="text/javascript">
+                        (function($) { 
+                          $(function() {
+                            // more code using $ as alias to jQuery
+                            $(".iframe").colorbox({iframe:true, width:"60%", height:"80%"});
+                          });
+                        })(jQuery);
+                        // other code using $ as an alias to the other library
+                        </script>
+                        <!-- DAY GENERATED CLASSES WRAP THE COMPONENT -->
+                        <div class="componentWrap">
+	                        	<!-- COMPONENT HTML GOES HERE -->
+	                        	<div id="previewMapWrap">
+                                    <a class="iframe" href="map.html"><img id="previewMap" src="" width="324" height="277" alt="Map Preview" /></a>
+                                </div>
+                                <div id="contentTopBox">
+                                    <h2>Some heading text here.</h2>
+                                    <p>Reprobo brevitas antehabeo veniam dolore accumsan magna dolus ut ventosus, quis. In fatua diam elit immitto multo distineo, te utinam adsum facilisi. Proprius consequat blandit causa iriure metuo roto exerci, et nulla facilisis. Et vicis venio odio quidne, esse vereor vereor nostrud melior foras. In tation similis fere te vel illum eu suscipit aptent praesent decet. Ea eligo, sagaciter natu vel decet at suscipere.</p>
+
+                                    <p>Et, luptatum luptatum, euismod demoveo dolus dolore. Et, accumsan nibh in quis abdo rusticus acsi. Qui paratus defui in ne nisl facilisis quae incassum imputo blandit, facilisis ullamcorper gemino minim. </p>
+                                    <a href="http://www.ichotelsgroup.com/hotelindigo/hotels/us/en/reservation" id="exploreBtn" target="_blank">Explore this Hotel</a>
+                                </div>
+                        </div><!-- end componentWrap -->
+                    </div><!-- dayContentWrapper -->
+                </div><!-- /contentWrapper -->
+            </div><!-- /MastheadShell -->
+        </div><!-- /wrapper -->
+    </body>
+</html>

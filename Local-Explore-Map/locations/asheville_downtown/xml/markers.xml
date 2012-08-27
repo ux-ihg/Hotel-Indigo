@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <neighborhood>
+        <hotel>
+            <name>Hotel Indigo - Asheville Downtown</name>
+            <url>http://www.hotelindigo.com/hotels/us/en/asheville/avlin/hoteldetail</url>
+            <address>151 Haywood Street</address>
+            <city>Asheville</city>
+            <state>NC</state>
+            <zip>28801</zip>
+            <latitude>35.596576</latitude>
+            <longitude>-82.558611</longitude>
+        </hotel>
+        <marker>
+            <name>The Chocolate Fetish</name>
+            <url>http://www.chocolatefetish.com/index.php</url>
+            <type>Do.</type>
+            <class>doLabel</class>
+            <latitude>35.595695</latitude>
+            <longitude>-82.554874</longitude>
+        </marker>
+        <marker>
+            <name>Old Kentucky Home</name>
+            <url>http://www.wolfememorial.com/index.html</url>
+            <type>See.</type>
+            <class>seeLabel</class>
+            <latitude>35.597647</latitude>
+            <longitude>-82.550855</longitude>
+        </marker>
+        <marker>
+            <name>Tupelo Honey Café</name>
+            <url>http://www.tupelohoneycafe.com</url>
+            <type>Taste.</type>
+            <class>tasteLabel</class>
+            <latitude>35.594712</latitude>
+            <longitude>-82.554813</longitude>
+        </marker>
+        <marker>
+            <name>Jack of the Wood</name>
+            <url>http://jackofthewood.com</url>
+            <type>Drink.</type>
+            <class>drinkLabel</class>
+            <latitude>35.59433</latitude>
+            <longitude>-82.555722</longitude>
+        </marker>
+        <marker>
+            <name>Grove Arcade</name>
+            <url>http://www.grovearcade.com/</url>
+            <type>Buy.</type>
+            <class>buyLabel</class>
+            <latitude>35.595556</latitude>
+            <longitude>-82.556637</longitude>
+        </marker>
+        <marker>
+            <name>The Orange Peel</name>
+            <url>http://theorangepeel.net/</url>
+            <type>Hear.</type>
+            <class>hearLabel</class>
+            <latitude>35.591384</latitude>
+            <longitude>-82.551131</longitude>
+        </marker>
+</neighborhood>
